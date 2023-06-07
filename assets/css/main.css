@@ -4,6 +4,33 @@
     /* font-family: 'Roboto', sans-serif;
     color: #d5a34c;
 } */
+#banner {
+    position: relative;
+    width: 100%;
+}
 #banner > a > img {
     width: 100%;
+}
+#toppage {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 80%;
+}
+.toppage_left {
+    display: flex;
+}
+.toppage_left > img {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.toppage_left > span {
+    color: #fff;
+    font-size: 0.27rem;
+    font-weight: 500;
+}
+.toppage_logo > a > img {
+    width: 35px;
+    /* height: 92px; */
 }
