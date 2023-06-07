@@ -15,7 +15,13 @@
 </head>
 <body>
     <div id="banner">
-        <a href=""><img src="./assets/img/banner.jpg" alt="Banner"></a>
+        <div id="banner_slide">
+            <a href="">
+                <img src="./assets/img/banner.jpg" alt="Banner">
+                <img src="./assets/img/banner.jpg" alt="Banner">
+            </a>
+            
+        </div>
         <div id="toppage">
             <div class="toppage_left">
                 <img src="./assets/img/lang_en.png" alt="logo english">
@@ -25,23 +31,24 @@
                 <a href="index.html"><img src="./assets/img/logo.png" alt="Logo"></a>
             </div>
             <div class="toppage_right">
-                <div>
-                    <div>
+                <div class="toppage_right-item">
+                    <a href="">
                         <i class="fa-solid fa-bag-shopping"></i>
-                        <span>Giỏ hàng</span>
-                    </div>
+                        <span class="label">Giỏ hàng</span>
+                        <span class="number_shopping">0</span>
+                    </a>
                     <div>
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <span>Search</span>
+                        <span class="label">Search</span>
                     </div>
                 </div>
-                <div>
-                    <input type="search" name="" id="">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="toppage_right-input">
+                    <input type="search" name="" id="" placeholder="Tìm kiếm">
+                    <i class="search fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>
-        <div id="header">
+        <header id="header">
             <ul class="menu">
                 <li class="menu_list"><a href="">TRANG CHỦ</a></li>
                 <li class="menu_list"><a href="">GIỚI THIỆU</a></li>
@@ -52,11 +59,25 @@
                 <li class="menu_list"><a href="">TUYỂN DỤNG</a></li>
                 <li class="menu_list"><a href="">LIÊN HỆ</a></li>
             </ul>
-            <span>
+            <span class="booking">
                 <i class="fa-regular fa-calendar-check"></i>
                 <span>Đặt bàn</span>
             </span>
-        </div>
+        </header>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                } else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
