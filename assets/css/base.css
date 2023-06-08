@@ -28,10 +28,88 @@ html {
     0% {
         top: 92px;
     }
-    /* 99% {
-        top: 5px;
-    } */
     100% {
         top: 0;
+    }
+}
+@keyframes ToptoBot {
+    0% {
+        top: 35px;
+        opacity: 0;
+    }
+    100% {
+        top: 45px;
+        opacity: 1;
+    }
+}
+@keyframes SliderShowFood {
+    0% {
+        margin-left: 0;
+    }
+    5% {
+        margin-left: 0;
+    }
+    10% {
+        margin-left: -20%;
+    }
+    14.5% {
+        margin-left: -20%;
+    }
+    19% {
+        margin-left: -40%;
+    }
+    23.5% {
+        margin-left: -40%;
+    }
+    28% {
+        margin-left: -60%;
+    }
+    32.5% {
+        margin-left: -60%;
+    }
+    37% {
+        margin-left: -80%;
+    }
+    41.5% {
+        margin-left: -80%;
+    }
+    46% {
+        margin-left: -100%;
+    }
+    50.5% {
+        margin-left: -100%;
+    }
+    55% {
+        margin-left: -120%;
+    }
+    59.5% {
+        margin-left: -120%;
+    }
+    64% {
+        margin-left: -140%;
+    }
+    68.5% {
+        margin-left: -140%;
+    }
+    73% {
+        margin-left: -160%;
+    }
+    77.5% {
+        margin-left: -160%;
+    }
+    82% {
+        margin-left: -180%;
+    }
+    86.5% {
+        margin-left: -180%;
+    }
+    91% {
+        margin-left: -200%;
+    }
+    95.5% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -220%;
     }
 }
