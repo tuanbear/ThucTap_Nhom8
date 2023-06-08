@@ -9,6 +9,7 @@
 }
 body {
     height: 5000px;
+    background-image: url(../img/bg.png);
 }
 #banner_slide {
     width: 100%;
@@ -112,7 +113,7 @@ body {
     justify-content: space-between;
     width: 81%;
     height: 55px;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 10%;
     background-image: url(../img/bg.png);
     border-radius: 30px;
     margin: 0 9.5%;
@@ -130,8 +131,11 @@ body {
     width: 100%;
 }
 .menu {
+    width: 80%;
     padding-left: 0;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .menu_list {
     list-style: none;
@@ -142,9 +146,10 @@ body {
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 3.3rem;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 .booking {
+    text-decoration: none;
     width: 135px;
     height: 45px;
     font-size: 2rem;
@@ -152,5 +157,5 @@ body {
     background-color: #eb983e;
     border-radius: 30px;
     margin: 5px;
-    padding: 10px 20px;
+    padding: 10px 0 10px 20px;
 }
