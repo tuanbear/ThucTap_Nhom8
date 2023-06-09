@@ -42,6 +42,14 @@ html {
         opacity: 1;
     }
 }
+@keyframes OpacityShow {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @keyframes SliderShowFood {
     0% {
         margin-left: 0;

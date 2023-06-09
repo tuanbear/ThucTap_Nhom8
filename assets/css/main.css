@@ -281,7 +281,7 @@ body {
     font-size: 5rem;
     font-family: 'Charm', cursive;
     font-weight: bolder;
-    color: #eb983e;
+    color: #d5a34c;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -295,4 +295,114 @@ body {
     position: absolute;
     bottom: 0;
     right: -40px;
-}   
+}
+.product {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0;
+}
+.product_home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.product_home:hover {
+    background-color: #ffffff;
+    transition: all 0.2s;
+}
+.product_home:hover .product_home-oder,
+.product_home:hover .fa-cart-shopping {
+    color: #ffffff;
+    transition: all 0.2s;
+    background-color: #d5a34c;
+}
+.product_home:hover .product_home-oder > a {
+    color: #ffffff;
+    transition: all 0.2s;
+}
+.product_home-img > a > img {
+    width: 94%;
+    padding-top: 3%;
+}
+.product_home-name > a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #414042;
+}
+.product_home-price {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: #ff7800;
+}
+.product_home-oder {
+    width: 112px;
+    height: 37px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    padding-left: 23px;
+    text-align: center;
+    align-items: center;
+    margin: 15px 0 20px;
+}
+.product_home-oder > a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #d5a34c;
+}
+.fa-cart-shopping {
+    font-size: 1.3rem;
+    color: #d5a34c;
+    margin-right: 3px;
+}
+.box {
+    width: 100%;
+    height: 440px;
+    background-image: url(../img/bg-about-home.png);
+    padding-top: 70px;
+    margin-top: 60px;
+}
+.box_home {
+    width: 100%;
+    max-width: 707px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 17.5%;
+    position: relative;
+    pointer-events: none;
+}
+.box_text {
+    padding: 10px 70px 20px 20px;
+    border: 1px solid #d5a34c;
+    border-radius: 10px;
+}
+.box_text-title {
+    font-size: 4rem;
+    font-family: 'Charm', cursive;
+    font-weight: bolder;
+    color: #d5a34c;
+    margin: 0;
+    padding: 0.6em 0;
+}
+.text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.slogan {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #d5a34c;
+    margin: 20px 0 0 0;
+}
+.box_home-img {
+    position: absolute;
+    width: 405px;
+    top: 0;
+    left: calc(100% - 70px);
+}
