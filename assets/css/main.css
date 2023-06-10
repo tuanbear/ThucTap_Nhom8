@@ -21,7 +21,7 @@ body {
 #banner_slide > a {
     width: 100%;
     display: flex;
-    animation: SliderShow 8s infinite;
+    animation: SliderShow 20s infinite;
 }
 #banner_slide > a > img {
     min-width: 100%;
@@ -447,4 +447,135 @@ body {
     font-size: 1.7rem;
     color: #eb983e;
     line-height: 4rem;
+}
+.slogan_review {
+    color: #2a2a2a;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px 0 25px;
+}
+.review_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.review_flex-item {
+    flex: 1;
+    max-width: 380px;
+}
+.review_flex-item--img > a > img {
+    width: 100%;
+}
+.name_home {
+    margin: 10px 0 5px;
+}
+.name_home > a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 1.5rem;
+}
+.date_home {
+    color: #777777;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 10px;
+}
+.date_home::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #777777;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+.info_home {
+    color: #404040;
+    font-size: 1.5rem;
+}
+#footer {
+    margin-top: 50px;
+}
+.footer_top {
+    min-width: 100%;
+    height: 520px;
+    padding: 40px 0;
+    background-image: url(../img/bg-map.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.footer_top-res {
+    width: 56%;
+}
+.footer_top-container {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    background-color: #d5a34c;
+    align-items: center;
+    padding-right: 10px;
+}
+.title_map-text {
+    width: 100%;
+    height: 30px;
+    font-family: 'Charm', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.title_map-btn > a {
+    display: flex;
+    width: 193px;
+    height: 42px;
+    background-color: #fff;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 5px;
+}
+.fa-map-location-dot {
+    color: #d5a34c;
+    font-size: 2.3rem;
+    margin: 0 10px;
+}
+.title_map-btn > a > div {
+    color: #d5a34c;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.footer_top-content {
+    width: 100%;
+    height: 385px;
+    background-color: #fff;
+    padding: 10px;
+    overflow-y: auto;
+}
+.footer_top-content-item {
+    padding: 10px;
+}
+.content_info {
+    display: flex;
+    /* padding: 0 10px; */
+    margin: 10px 0;
+}
+.content_info > div {
+    font-size: 1.4rem;
+}
+.content_title {
+    margin: 0;
+    /* padding: 0 10px; */
+    font-size: 1.4rem;
+    color: #d5a34c;
+}
+.fa-location-dot, .fa-phone, .fa-envelope {
+    width: 15px;
+    color: #444;
+    margin: 0 10px 0 5px;
 }
