@@ -16,6 +16,7 @@ body {
     overflow: hidden;
     position: relative;
     display: flex;
+    margin-bottom: 230px;
 }
 #banner_slide > a {
     width: 100%;
@@ -271,20 +272,18 @@ body {
     color: #414042;
     margin: 0 auto;
 }
-.main_food-title {
-    width: 300px;
-    margin-top: 200px;
-    position: relative;
-    margin-left: 40%;
+.main_title {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
-.main_food-title > span {
+.main_title > span {
     font-size: 5rem;
     font-family: 'Charm', cursive;
     font-weight: bolder;
     color: #d5a34c;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    position: relative;
 }
 .title-left {
     position: absolute;
@@ -405,4 +404,47 @@ body {
     width: 405px;
     top: 0;
     left: calc(100% - 70px);
+}
+.video {
+    width: 100%;
+    height: 600px;
+    background-color: #ffffff;
+    background-image: url(../img/bg-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+}
+.main_title-video {
+    margin: 0;
+}
+.slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slide_show {
+    margin-top: 40px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.video_slide {
+    width: 100%;
+    max-width: 1050px;
+    display: flex;
+    animation: SlideVideo 10s infinite;
+    margin-left: -24%;
+}
+.video_slide-item {
+    text-align: center;
+    margin-right: 10px;
+}
+.video_slide-item > a > img {
+    width: 510px;
+    border-radius: 10px;
+}
+.video_slide-item > b {
+    font-size: 1.7rem;
+    color: #eb983e;
+    line-height: 4rem;
 }
