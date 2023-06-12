@@ -1,10 +1,5 @@
-/* h1 {
-    /* font-family: UTM-A, Tahoma, Geneva, sans-serif;; */
-    /* font-family: 'Charm', cursive; */
-    /* font-family: 'Roboto', sans-serif;
-    color: #d5a34c;
-} */
 #banner {
+    position: relative;
     width: 100%;
 }
 body {
@@ -13,7 +8,6 @@ body {
 #banner_slide {
     width: 100%;
     overflow: hidden;
-    position: relative;
     display: flex;
     margin-bottom: 230px;
 }
@@ -57,9 +51,6 @@ body {
     display: flex;
     padding: 35px 0;
 }
-.toppage_right:hover .toppage_right-input {
-    visibility: inherit;
-}   
 .fa-solid, .label_shopping {
     font-size: 15px;
     color: var(--white--color);
@@ -86,11 +77,14 @@ body {
     text-decoration: none;
     margin-right: 20px;
 }
+.toppage_right-item > div {
+    cursor: pointer;
+}
 .toppage_right-input {
     position: absolute;
     top: 55px;
     right: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .search {
     position: absolute;
@@ -133,7 +127,7 @@ body {
     padding: 0 140px 0 285px;
     border-radius: 0;
     margin: 0;
-    background-color: #e9e9e9;
+    background-color: #fff;
     width: 100%;
     z-index: 2;
 }
@@ -263,13 +257,13 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.main_title {
+.title {
     width: 100%;
     margin-top: 100px;
     display: flex;
     justify-content: center;
 }
-.main_title > span {
+.title > span {
     font-size: 5rem;
     font-family: 'Charm', cursive;
     font-weight: bolder;
@@ -289,14 +283,18 @@ body {
 .product {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 80px auto 0;
 }
 .product_home {
+    width: 280px;
+    min-width: 230px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .product_home:hover {
     background-color: #ffffff;
@@ -313,7 +311,7 @@ body {
     transition: all 0.2s;
 }
 .product_home-img > a > img {
-    width: 94%;
+    width: 96%;
     padding-top: 3%;
 }
 .product_home-name > a {
@@ -354,7 +352,7 @@ body {
     height: 440px;
     background-image: url(../img/bg-about-home.png);
     padding-top: 70px;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .box_home {
     width: 100%;
@@ -405,7 +403,7 @@ body {
     background-size: cover;
     padding-top: 90px;
 }
-.main_title-video {
+.title-video {
     margin: 0;
 }
 .slide {

@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+}
+#banner_thucdon {
+    display: flex;
+}
+#banner_thucdon > img {
+    min-width: 100%;
+}
+.crumb {
+    width: 100%;
+    height: 38px;
+    padding: 11px 0 10px 10%;
+    background-color: #fff;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+.crumb > a:first-child {
+    color: #777777;
+}
+.crumb > a:last-child {
+    color: #d5a34c;
+}
+.slogan_thucdon {
+    color: #2a2a2a;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 40px 0 25px;
+}
+.slogan_thucdon > div {
+    color: #d5a34c;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.product_thucdon {
+    margin-top: 20px;
+}
+.paging {
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    color: #585858;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    align-items: center;
+}
+.clicked {
+    color: #d5a34c;
+    border: 1px solid #d5a34c;
+}
