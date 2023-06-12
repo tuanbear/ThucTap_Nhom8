@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn - Page 2</title>
+    <link rel="icon" href="./assets/img/logo_title.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/thucdon.css">
+</head>
+<body>
+    <div id="banner">
+        <div id="banner_thucdon">
+            <img src="./assets/img/banner_thucdon.png" alt="">
+        </div>
+        <div id="toppage">
+            <div class="toppage_left">
+                <img src="./assets/img/lang_en.png" alt="logo english">
+                <span>English</span>
+            </div>
+            <div class="toppage_logo">
+                <a href="index.html"><img src="./assets/img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="toppage_right">
+                <div class="toppage_right-item">
+                    <a href="">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="label_shopping">Giỏ hàng</span>
+                        <span class="number_shopping">0</span>
+                    </a>
+                    <div onclick="ClickShow()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span id="label">Search</span>
+                    </div>
+                </div>
+                <form action="" class="toppage_right-input" id="search">
+                    <input type="search" name="" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass search"></i>
+                </form>
+            </div>
+        </div>
+        <header id="header">
+            <ul class="menu">
+                <li class="menu_list"><a href="index.html">TRANG CHỦ</a></li>
+                <li class="menu_list">
+                    <a href="">GIỚI THIỆU</a>
+                    <div class="sub_menu sub_menu-intro">
+                        <a href="#footer">Hệ thống nhà hàng</a>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a href="thucdon.html">THỰC ĐƠN</a>
+                    <div class="sub_menu sub_menu-menu">
+                        <a href="">Bún Huế</a>
+                        <a href="">Cơm Huế</a>
+                        <a href="">Cháo Huế</a>
+                        <a href="">Bánh Huế</a>
+                        <a href="">Đồ cuốn</a>
+                        <a href="">Nhậu</a>
+                        <a href="">Gỏi rau</a>
+                        <a href="">Món ăn chơi</a>
+                        <a href="">Lẩu</a>
+                        <a href="">Món tráng miêng</a>
+                        <a href="">Món cung đình</a>
+                    </div>
+                </li>
+                <li class="menu_list"><a href="">ƯU ĐÃI</a></li>
+                <li class="menu_list"><a href="">BLOG ẨM THỰC</a></li>
+                <li class="menu_list">
+                    <a href="#footer">HỆ THỐNG CỬA HÀNG</a>
+                    <div class="sub_menu sub_menu-shop">
+                        <a href="">Nét Huế Thái Hòa</a>
+                        <a href="">Nét Huế Hàng Bông</a>
+                        <a href="">Nét Huế Mai Hắc Đế</a>
+                        <a href="">Nét Huế Láng Hạ</a>
+                        <a href="">Nét Huế Royal City</a>
+                        <a href="">Nét Huế Trần Duy Hưng</a>
+                        <a href="">Nét Huế Nguyễn Chí Thanh</a>
+                        <a href="">Nét Huế Lạc Trung</a>
+                        <a href="">Nét Huế Phạm Hùng</a>
+                        <a href="">Nét Huế Nguyễn Văn Huyên</a>
+                        <a href="">Nét Huế Time City</a>
+                        <a href="">Nét Huế Aeon Mall Hàng Bông</a>
+                        <a href="">Nét Huế - Vincom Nguyễn Chí Thanh</a>
+                        <a href="">Nét Huế BigC Thăng Long</a>
+                        <a href="">Nét Huế Ocean Park Gia Lâm</a>
+                        <a href="">Nét Huế Aeon Maill Hải Phòng</a>
+                    </div>
+                </li>
+                <li class="menu_list"><a href="">TUYỂN DỤNG</a></li>
+                <li class="menu_list"><a href="">LIÊN HỆ</a></li>
+            </ul>
+            <a href="" class="booking">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>Đặt bàn</span>
+            </a>
+        </header>
+    </div>
+    <div class="crumb">
+        <a href="index.html">Trang chủ </a>
+        >
+        <a href="thucdon.html"> Thực đơn</a>
+    </div>
+    <div>
+        <div class="title">
+            <span>
+                <img src="./assets/img/title-home-left.png" alt="" class="title-left">
+                Thực đơn
+                <img src="./assets/img/title-home-right.png" alt="" class="title-right">
+            </span>
+        </div>
+        <div class="slogan_thucdon">
+            Hãy cũng khám phá thực đơn tại nhà hàng Nét Huế để được thưởng thức trọn hương vị ẩm thực
+            <br>
+            <div>Huế Tinh hoa ẩm thực Huế</div>
+        </div>
+    </div>
+    <div class="product product_thucdon">
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chaphuong.jpg" alt="Chả phượng  ( Quý khách vui lòng liên hệ đặt trước )"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chả phượng  ( Quý khách vui lòng liên hệ đặt trước )</a>
+            </div>
+            <div class="product_home-price">650.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/nemcong.jpg" alt="Nem công  ( Quý khách vui lòng liên hệ đặt trước )"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Nem công  ( Quý khách vui lòng liên hệ đặt trước )</a>
+            </div>
+            <div class="product_home-price">480.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chesenlongnhan.png" alt="Chè sen long nhãn"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè sen long nhãn</a>
+            </div>
+            <div class="product_home-price">38.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chechuoi.png" alt="Chè chuối"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè chuối</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chesenhue.png" alt="Chè sen Huế"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè sen Huế</a>
+            </div>
+            <div class="product_home-price">35.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chekhoaitia.png" alt="Chè khoai tía"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè khoai tía</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chebap.png" alt="Chè bắp"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè bắp</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chebotloc.png" alt="Chè bột lọc"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè bột lọc</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chedauxanh.png" alt="Chè đậu xanh"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè đậu xanh</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chebuoi.png" alt="Chè bưởi"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè bưởi</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/chesuong.png" alt="Chè sương sa hạt lựu"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Chè sương sa hạt lựu</a>
+            </div>
+            <div class="product_home-price">28.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/lauchaobo.png" alt="Lẩu cháo bò"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Lẩu cháo bò</a>
+            </div>
+            <div class="product_home-price">325.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/vithonhue.jpg" alt="Vịt hon Huế"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Vịt hon Huế</a>
+            </div>
+            <div class="product_home-price">165.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/lauduoibonguvi.jpg" alt="Lẩu đuôi bò ngũ vị"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Lẩu đuôi bò ngũ vị</a>
+            </div>
+            <div class="product_home-price">425.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/laubolarangnho.jpg" alt="Lẩu bò lá giang cỡ nhỏ "></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Lẩu bò lá giang cỡ nhỏ </a>
+            </div>
+            <div class="product_home-price">354.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+        <div class="product_home">
+            <div class="product_home-img">
+                <a href=""><img src="./assets/img/laubolarangto.jpg" alt="Lẩu bò lá giang cỡ to"></a>
+            </div>
+            <div class="product_home-name">
+                <a href="">Lẩu bò lá giang cỡ to</a>
+            </div>
+            <div class="product_home-price">550.000đ</div>
+            <div class="product_home-oder">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Đặt món
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="paging">
+        <a href="thucdon.html" class="page"><i class="fa fa-angle-double-left"></i></a>
+        <a href="thucdon.html" class="page"><i class="fa fa-angle-left"></i></a>
+        <a href="thucdon.html" class="page">1</a>
+        <a href="thucdon-page2.html" class="page clicked">2</a>
+        <a href="" class="page">3</a>
+        <a href="" class="page">4</a>
+        <a href="" class="page">5</a>
+        <a href="" class="page"><i class="fa fa-angle-right"></i></a>
+        <a href="" class="page"><i class="fa fa-angle-double-right"></i></a>
+    </div>
+    <footer id="footer" style="margin-top: 30px;">
+        <div class="footer_top">
+            <div class="footer_top-res">
+                <div class="footer_top-container">
+                    <div class="title_map-text">Hệ thống nhà hàng</div>
+                    <div class="title_map-btn">
+                        <a href="">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <div>Tìm nhà hàng gần nhất</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_top-content">
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Hàng Bông</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế 198 Hàng Bông, Q. Hoàn Kiếm, Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3938.1795</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Mai Hắc Đế</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế 43 Mai Hắc Đế - Q. Hai Bà Trưng - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3944.9769</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Lạc Trung</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế 57 Lạc Trung - Q. Hai Bà Trưng - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3877.5757</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Times city</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế B1- D9-13 Times City - Q. Hai Bà Trưng - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3201.6123</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Thái Hà</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế 36 Thái Hà - Q. Đống Đa - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3834.3636</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Láng Hạ</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế 153 Láng Hạ - Q. Đống Đa - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3562.7532</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế - Vincom Nguyễn Chí Thanh</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>BH 06-07 - TTTM Vincom Nguyễn Chí Thanh - 54A Nguyễn Chí Thanh - Q. Đống Đa - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3202.3099</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Nguyễn Văn Huyên</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Ngã tư Nguyễn Văn Huyên và Nguyễn Khánh Toàn - Q. Cầu Giấy - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3766.1515</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế - BigC Thăng Long</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Tầng 1 - shop 27 TTTM BigC Thăng Long - 222 Trần Duy Hưng - Q. Cầu Giấy - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3203.2055</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Phạm Hùng</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>L3 -12 - Tầng 3 - Vincom Sky Lake Phạm Hùng - Q. Nam Từ Liêm - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.3200.0546</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Royal City</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Nét Huế B2-R6-41 Royal City - 72 Nguyễn Trãi - Q. Thanh Xuân - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.6664.2970</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Aeon Mall Hà Đông</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Tầng 1 -Khu Ẩm Thực - Aeon Mall Hà Đông - Dương Nội - Q. Hà Đông - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024.6652.2997</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Ocean Park Gia Lâm</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>L4 - 02 TTTM Vincom Ocean Park- Q. Gia Lâm - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 0243.203.6995</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế Aeon Mall Hải Phòng</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>T214 - TTTM Aeon Mall Hải Phòng Lê Chân - Q. Lê Chân - TP Hải Phòng</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 0225.883.1877</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế - Savico Megamall</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>TTTM Savico Megamall - 7 - 9 Nguyễn Văn Linh - Q. Long Biên - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 0243.202.1980</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế - Vincom Mega Mall Smart City</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>TTTM Vinsmart - Đại Lộ Thăng Long - Q. Nam Từ Liêm - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024 35578383</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                    <div class="footer_top-content-item">
+                        <h3 class="content_title">Nét Huế - Aeon Mall - Long Biên</h3>
+                        <div class="content_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>Lot T316 -1 & T311 -3 Aeon Mall Long Biên, 27 Cổ Linh - Long Biên - Hà Nội</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>Hotline: 024 66663499</div>
+                        </div>
+                        <div class="content_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>info@nethue.com.vn</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_content">
+            <div class="footer_content-item">
+                <img src="./assets/img/logo.png" alt="Nét Huế">
+            </div>
+            <div class="footer_content-item">
+                <h3>Thông tin liên hệ</h3>
+                <div>
+                    <i class="fa-solid fa-location-dot icon_footer"></i>
+                    <div>Tầng 4 số 34 - 36 Thái Hà, Hà Nội</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone icon_footer"></i>
+                    <div>
+                        Điện thoại: 0968 296433
+                        <br>
+                        Hotline: 19009077
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope icon_footer"></i>
+                    <div>Email: nhahangnethue@gmail.com</div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-window-restore icon_footer"></i>
+                    <div>Website: nethue.com.vn</div>
+                </div>
+            </div>
+            <div class="footer_content-item">
+                <h3>Tin tức nổi bật</h3>
+                <h3>Có thể bạn quan tâm</h3>
+                <div>Chính sách giao hàng</div>
+                <div>Nhóm đông đặc tiệc</div>
+                <div>Đặt món phục vụ tại nhà</div>
+            </div>
+            <div class="footer_content-item footer_facebook">
+                <div class="footer_content-page">
+                    <div class="footer_content-bg">
+                        <div class="footer_content-link">
+                            <div class="link_page">
+                                <a href="https://www.facebook.com/nhahangnethue/?ref=embed_page" target="_blank"><img src="./assets/img/logo_footer.png" alt=""></a>
+                                <div>
+                                    <a href="https://www.facebook.com/nhahangnethue/?ref=embed_page" target="_blank">Nhà Hàng Nét Huế</a>
+                                    <div>19.736 người theo dõi</div>
+                                </div>
+                            </div>
+                            <a href="https://www.facebook.com/nhahangnethue/?ref=embed_page" class="link_facebook" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                Theo dõi Trang
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_content-social">
+                    <h3>Mạng xã hội</h3>
+                    <div>
+                        <a href="https://www.facebook.com/nhahangnethue/?ref=embed_page"><div class="icon_footer-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div></a>
+                        <a href=""><div class="icon_footer-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div></a>
+                        <a href=""><div class="icon_footer-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div></a>
+                        <a href=""><div class="icon_footer-link">
+                            <i class="fa-solid fa-z"></i>
+                        </div></a>
+                    </div>
+                    <a href="http://hutieugiathanh.com.vn/"><img src="./assets/img/giathanh.png" alt="Gia thành"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            © 2019 nethue, All Rights Reserved. | nethue.com.vn |
+        </div>
+    </footer>
+    <div class="icon_main">
+        <div class="icon_main-right">
+            <a href="tel:19009077">
+                <div class="icon1">
+                    <i class="fa-solid fa-phone icon_fixed"></i>
+                    <span class="icon_fixed">19009077</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="icon2">
+                    <i class="fa-solid fa-location-dot icon_fixed"></i>
+                    <span class="icon_fixed">Tìm nhà hàng gần nhất</span>
+                </div>
+            </a>
+            <a href="">
+                <div class="icon3">
+                    <i class="fa-regular fa-calendar-check icon_fixed"></i>
+                    <span class="icon_fixed">Đặt bàn</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <a href="tel:19009077" class="giaohang-fixed">
+        <div>Giao hàng tận nơi</div>
+        <div class="hotline">19009077</div>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                } else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+        function ClickShow() {
+            document.getElementById("search").style.visibility = 'inherit';
+        };
+    </script>
+</body>
+</html>
