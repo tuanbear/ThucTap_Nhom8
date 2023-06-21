@@ -1,0 +1,186 @@
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left_page {
+    width: 72%;
+    min-width: 600px;
+}
+.product_bg {
+    background-image: url(../img/bg.png);
+    padding: 20px;
+}
+.product_img {
+    width: 59%;
+}
+.product_info {
+    width: 39%;
+}
+.product_info-name {
+    line-height: 4rem;
+    font-size: 3.5rem;
+    font-family: 'Charm', cursive;
+    color: #eb983e;
+}
+.product_info-text {
+    font-size: 1.4rem;
+    color: #414042;
+}
+.product_info-price {
+    font-size: 2.4rem;
+    color: #ef0000;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+.product_info-btn {
+    display: block;
+    background: #eb983e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.content_text h2 {
+    color: #eb983e;
+    font-size: 2.4rem;
+}
+.content_text div {
+    color: #414042;
+    font-size: 1.4rem;
+}
+.right_page {
+    width: 26%;
+    min-width: 225px;
+}
+.menu_right {
+    border-radius: 6px;
+    overflow: hidden;
+    background-image: url(../img/bg.png);
+    margin-bottom: 20px;
+}
+.title_menu {
+    background-color: #eb983e;
+    font-weight: bold;
+}
+.title_menu a {
+    padding: 13px 20px;
+    display: block;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.menu_right ul {
+    padding-left: 0;
+}
+.menu_list-food a {
+    display: block;
+    padding: 6px 20px 6px 35px;
+    transition: color .3s;
+    position: relative;
+    text-decoration: none;
+    color: #414042;
+    font-size: 1.35rem;
+    font-weight: bolder;
+}
+.menu_list-food a::before {
+    content: "\f111";
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-family: 'FontAwesome';
+    font-size: 6px;
+    color: #959595;
+}
+.menu_list-food a:hover,.menu_list-food a:hover::before {
+    color: #eb983e;
+}
+.active a, .active a::before {
+    color: #eb983e;
+}
+.box_right {
+    border-radius: 6px;
+    overflow: hidden;
+    background: url(../img/bg.png);
+    padding: 10px;
+}
+.box_boder {
+    border: 1px solid #eb983e;
+    border-radius: 4px;
+    padding: 10px;
+}
+.box_title {
+    width: 200px;
+    margin: -10px auto 0;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Charm', cursive;
+    font-size: 3.2rem;
+    background-color: #eb983e;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+}
+.box_title::before {
+    content: "";
+    display: block;
+    background: url(../img/left-title-reg.png) no-repeat;
+    width: 35px;
+    height: 7px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.box_title::after {
+    content: "";
+    display: block;
+    background: url(../img/right-title-reg.png) no-repeat;
+    width: 35px;
+    height: 7px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.text_box {
+    font-size: 1.4rem;
+    color: #414042;
+    text-align: center;
+    margin: 15px 0;
+}
+.flex_container div input, .flex_container div select {
+    width: 100%;
+    height: 38px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+.flex_container div select {
+    color: #414042;
+    font-size: 1.3rem;
+}
+.flex_container div input::placeholder {
+    font-size: 1.3rem;
+}
+.input-1 {
+    width: 100%;
+}
+.input-1 a {
+    width: 100%;
+    background-color: #eb983e;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+}
+.title_product {
+    color: #eb983e;
+    font-size: 2.4rem;
+    text-align: center;
+}

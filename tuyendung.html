@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nét Huế</title>
+    <title>Tuyển dụng</title>
     <link rel="icon" href="./assets/img/logo_title.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,15 +13,12 @@
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/tuyendung.css">
 </head>
 <body>
     <div id="banner">
-        <div id="banner_slide">
-            <a href="">
-                <img src="./assets/img/banner.jpg" alt="Banner">
-                <img src="./assets/img/banner1.jpg" alt="Banner">
-                <img src="./assets/img/banner.jpg" alt="Banner">
-            </a>
+        <div class="banner-tuyendung"> 
+            <img src="./assets/img/banner_thucdon.png"  alt="Banner">
         </div>
         <div id="toppage">
             <div class="toppage_left">
@@ -60,13 +57,13 @@
                         <li class="menu_list"><a href="index.html">TRANG CHỦ</a></li>
                         <li class="menu_list">
                             <a href="gioithieu.html">GIỚI THIỆU</a>
-                            <div class="sub_menu">
+                            <div class="sub_menu sub_menu-intro">
                                 <a href="hethongcuahang.html">Hệ thống nhà hàng</a>
                             </div>
                         </li>
                         <li class="menu_list">
                             <a href="thucdon.html">THỰC ĐƠN</a>
-                            <div class="sub_menu">
+                            <div class="sub_menu sub_menu-menu">
                                 <a href="bunhue.html">Bún Huế</a>
                                 <a href="comhue.html">Cơm Huế</a>
                                 <a href="chaohue.html">Cháo Huế</a>
@@ -84,7 +81,7 @@
                         <li class="menu_list"><a href="blog_am_thuc.html">BLOG ẨM THỰC</a></li>
                         <li class="menu_list">
                             <a href="hethongcuahang.html">HỆ THỐNG CỬA HÀNG</a>
-                            <div class="sub_menu">
+                            <div class="sub_menu sub_menu-shop">
                                 <a href="nethuethaiha.html">Nét Huế Thái Hòa</a>
                                 <a href="nethuethaiha.html">Nét Huế Hàng Bông</a>
                                 <a href="nethuethaiha.html">Nét Huế Mai Hắc Đế</a>
@@ -114,251 +111,61 @@
             </div>
         </header>
     </div>
-    <div class="main">
-        <div class="grid">
-            <div class="main_menu">
-                <img src="./assets/img/label_menu.png" alt="Menu">
-                <div class="boder1">
-                    <div class="boder2">
-                        <p>Hãy cùng khám phá thực đơn tại nhà hàng Nét Huế để được thưởng thức trọn hương vị ẩm thực Huế</p>
-                        <div class="main_menu-food">
-                            <span>
-                                <a href="bunhue.html"><img src="./assets/img/bunhue.jpg" alt="Bún Huế" class="link_img"></a>
-                                <a href="bunhue.html"><span class="name_food">Bún Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="comhue.html"><img src="./assets/img/comhue.jpg" alt="Cơm Huế" class="link_img"></a>
-                                <a href="comhue.html"><span class="name_food">Cơm Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="chaohue.html"><img src="./assets/img/chaohue.jpg" alt="Cháo Huế" class="link_img"></a>
-                                <a href="chaohue.html"><span class="name_food">Cháo Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="banhhue.html"><img src="./assets/img/banhhue.jpg" alt="Bánh Huế" class="link_img"></a>
-                                <a href="banhhue.html"><span class="name_food">Bánh Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="docuon.html"><img src="./assets/img/docuon.jpg" alt="Đồ cuốn" class="link_img"></a>
-                                <a href="docuon.html"><span class="name_food">Đồ cuốn</span></a>
-                            </span>
-                            <span>
-                                <a href="nhau.html"><img src="./assets/img/nhau.jpg" alt="Nhậu" class="link_img"></a>
-                                <a href="nhau.html"><span class="name_food">Nhậu</span></a>
-                            </span>
-                            <span>
-                                <a href="goirau.html"><img src="./assets/img/goirau.jpg" alt="Gỏi rau" class="link_img"></a>
-                                <a href="goirau.html"><span class="name_food">Gỏi rau</span></a>
-                            </span>
-                            <span>
-                                <a href="monanchoi.html"><img src="./assets/img/monanchoi.jpg" alt="Món ăn chơi" class="link_img"></a>
-                                <a href="monanchoi.html"><span class="name_food">Món ăn chơi</span></a>
-                            </span>
-                            <span>
-                                <a href="lau.html"><img src="./assets/img/lau.jpg" alt="Lẩu" class="link_img"></a>
-                                <a href="lau.html"><span class="name_food">Lẩu</span></a>
-                            </span>
-                            <span>
-                                <a href="montrangmieng.html"><img src="./assets/img/montrangmieng.png" alt="Món tráng miệng" class="link_img"></a>
-                                <a href="montrangmieng.html"><span class="name_food">Món tráng miệng</span></a>
-                            </span>
-                            <span>
-                                <a href="moncungdinh.html"><img src="./assets/img/moncungdinh.png" alt="Món cung đình" class="link_img"></a>
-                                <a href="moncungdinh.html"><span class="name_food">Món cung đình</span></a>
-                            </span>
-                            <span>
-                                <a href="bunhue.html"><img src="./assets/img/bunhue.jpg" alt="Bún Huế" class="link_img"></a>
-                                <a href="bunhue.html"><span class="name_food">Bún Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="comhue.html"><img src="./assets/img/comhue.jpg" alt="Cơm Huế" class="link_img"></a>
-                                <a href="comhue.html"><span class="name_food">Cơm Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="chaohue.html"><img src="./assets/img/chaohue.jpg" alt="Cháo Huế" class="link_img"></a>
-                                <a href="chaohue.html"><span class="name_food">Cháo Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="banhhue.html"><img src="./assets/img/banhhue.jpg" alt="Bánh Huế" class="link_img"></a>
-                                <a href="banhhue.html"><span class="name_food">Bánh Huế</span></a>
-                            </span>
-                            <span>
-                                <a href="docuon.html"><img src="./assets/img/docuon.jpg" alt="Đồ cuốn" class="link_img"></a>
-                                <a href="docuon.html"><span class="name_food">Đồ cuốn</span></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="title">
-                <span>
-                    <img src="./assets/img/title-home-left.png" alt="" class="title-left">
-                    Món ăn nổi bật
-                    <img src="./assets/img/title-home-right.png" alt="" class="title-right">
-                </span>
-            </div>
-            <div class="product">
-                <div class="product_home">
-                    <div class="product_home-img">
-                        <a href="henxucbanhtrang.html"><img src="./assets/img/henxucbanhtrang.jpg" alt="Hến xúc bánh tráng"></a>
-                    </div>
-                    <div class="product_home-name">
-                        <a href="henxucbanhtrang.html">Hến xúc bánh tráng</a>
-                    </div>
-                    <div class="product_home-price">75.000đ</div>
-                    <div class="product_home-oder">
-                        <a href="giohang.html">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            Đặt món
-                        </a>
-                    </div>
-                </div>
-                <div class="product_home">
-                    <div class="product_home-img">
-                        <a href="food_info.html"><img src="./assets/img/bunhuedacbiet.jpg" alt="Bún bò Huế đặc biệt"></a>
-                    </div>
-                    <div class="product_home-name">
-                        <a href="food_info.html">Bún bò Huế đặc biệt</a>
-                    </div>
-                    <div class="product_home-price">84.000đ</div>
-                    <div class="product_home-oder">
-                        <a href="giohang.html">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            Đặt món
-                        </a>
-                    </div>
-                </div>
-                <div class="product_home">
-                    <div class="product_home-img">
-                        <a href="bunchacathaclac.html"><img src="./assets/img/buncathaclac.jpg" alt="Bún chả cá Thác lác"></a>
-                    </div>
-                    <div class="product_home-name">
-                        <a href="bunchacathaclac.html">Bún chả cá Thác lác</a>
-                    </div>
-                    <div class="product_home-price">78.000đ</div>
-                    <div class="product_home-oder">
-                        <a href="giohang.html">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            Đặt món
-                        </a>
-                    </div>
-                </div>
-                <div class="product_home">
-                    <div class="product_home-img">
-                        <a href="nemlui.html"><img src="./assets/img/nemlui.png" alt="Nem lụi"></a>
-                    </div>
-                    <div class="product_home-name">
-                        <a href="nemlui.html">Nem lụi</a>
-                    </div>
-                    <div class="product_home-price">75.000đ</div>
-                    <div class="product_home-oder">
-                        <a href="giohang.html">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            Đặt món
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <div class="backboss">
+        <div class="back">
+            <p class="back1" style="color: #6f6f6f;"><a href="index.html">Trang chủ</a></p>
+            <i class="back2" style="color: #6f6f6f;">></i>
+            <p class="back11" style="color: #d5a34c;"><a href="tuyendung.html">Tuyển dụng</a></p>
         </div>
-        <div class="home_box">
-            <div class="box_home">
-                <div class="box_text">
-                    <h1 class="box_text-title">Nét Huế</h1>
-                    <div class="text">
-                        Ai qua Huế một lần thôi, Mang đi từ Huế ngọt lời nhớ thương. Xứ Huế nồng nàn với sông Hương, núi Ngự, dịu dàng đằm thắm với con người nơi đây. Không thể quên, xứ Huế níu kéo nỗi nhớ người đi bằng hương vị món ăn thuần khiết đậm đà. Không biết có phải ông trời cho Huế một thiên nhiên có phần khắc nghiệt: mưa thì mưa mê mải, nắng thì nắng chói chang hay không mà ẩm thực nơi đây luông mang đầy đủ phong vị chua, cay, mặn, ngọt, đắng, thơm, bùi, dẻo...Người lữ khách một lần đến Cố Đô, sao quên được vị Huế hài hòa mà đậm chất, đồ ăn Huế cầu kỳ mà thanh khiết, đẹp mắt mà giản dị thường ngày
-                    </div>
-                    <div class="slogan">
-                        “Mang đi từ Huế ngọt lời nhớ thương”
-                    </div>
-                </div>
-                <img src="./assets/img/bg1-about-home.png" alt="Background" class="box_home-img">
-            </div>
-        </div>
-        <div class="video">
-            <div class="title title-video">
-                <span>
-                    <img src="./assets/img/title-home-left.png" alt="" class="title-left">
-                    Video
-                    <img src="./assets/img/title-home-right.png" alt="" class="title-right">
-                </span>
-            </div>
-            <div class="slide">
-                <div class="slide_show">
-                    <div class="video_slide">
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=jGGQ_URaCQE" target="_blank"><img src="./assets/img/slide_video1.jpg" alt="Bà Năm Vlog lên thành phố - Chất quá bà ơi!"></a>
-                            <b>Bà Năm Vlog lên thành phố - Chất quá bà ơi!</b>
-                        </div>
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=2gMPDIs_Yy0" target="_blank"><img src="./assets/img/slide_video2.jpg" alt="Nét Huế giữa lòng Hà Nội"></a>
-                            <b>Nét Huế giữa lòng Hà Nội</b>
-                        </div>
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=2mFH9c-vRq4" target="_blank"><img src="./assets/img/slide_video3.jpg" alt="Review quán ăn Huế chuẩn bậc nhất Hà Thành"></a>
-                            <b>Review quán ăn Huế chuẩn bậc nhất Hà Thành</b>
-                        </div>
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=jGGQ_URaCQE" target="_blank"><img src="./assets/img/slide_video1.jpg" alt="Bà Năm Vlog lên thành phố - Chất quá bà ơi!"></a>
-                            <b>Bà Năm Vlog lên thành phố - Chất quá bà ơi!</b>
-                        </div>
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=2gMPDIs_Yy0" target="_blank"><img src="./assets/img/slide_video2.jpg" alt="Nét Huế giữa lòng Hà Nội"></a>
-                            <b>Nét Huế giữa lòng Hà Nội</b>
-                        </div>
-                        <div class="video_slide-item">
-                            <a href="https://www.youtube.com/watch?v=2mFH9c-vRq4" target="_blank"><img src="./assets/img/slide_video3.jpg" alt="Review quán ăn Huế chuẩn bậc nhất Hà Thành"></a>
-                            <b>Review quán ăn Huế chuẩn bậc nhất Hà Thành</b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="title">
-                <span>
-                    <img src="./assets/img/title-home-left.png" alt="" class="title-left">
-                    Blog ẩm thực
-                    <img src="./assets/img/title-home-right.png" alt="" class="title-right">
-                </span>
-            </div>
-            <div class="review">
-                <div class="slogan_review">
-                    Hãy cũng khám phá thực đơn tại nhà hàng Nét Huế để được thưởng thức trọn hương vị ẩm thực
-                    <br>
-                     Huế Tinh hoa ẩm thực Huế
-                </div>
-                <div class="review_flex">
-                    <div class="review_flex-item">
-                        <div class="review_flex-item--img">
-                            <a href="tintuc.html"><img src="./assets/img/review1.jpg" alt="Ảnh"></a>
-                        </div>
-                        <h3 class="name_home"><a href="tintuc.html">Mua 3 Món Mang Về Tặng 1 Chè Huế</a></h3>
-                        <div class="date_home">Ngày 21/03/2023</div>
-                        <div class="info_home">
-                            Nét Huế vẫn đang áp dụng chương trình ưu đãi dành cho khách mua mang về ạ. Mua 3 món ăn, Tặng 1 Chè Huế. Mua Lẩu mang về cũng được thêm chè, "Xtra Ưu Đãi" - Lẩu nhỏ: thêm 1 chè. - Lẩu lớn : thêm 2 chè.
-                        </div>
-                    </div>
-                    <div class="review_flex-item">
-                        <div class="review_flex-item--img">
-                            <a href="tintuc.html"><img src="./assets/img/review2.jpg" alt="Ảnh"></a>
-                        </div>
-                        <h3 class="name_home"><a href="tintuc.html">Thông Báo Nghỉ Tết và Bán Thông Tết 2023</a></h3>
-                        <div class="date_home">Ngày 21/03/2023</div>
-                        <div class="info_home">
-                            Nét Huế Xin Thông Báo Nghỉ Tết và Bán Thông Tết 2023. Hệ Thống nhà hàng Nét Huế xin trân trọng thông báo tới quý khách lịch nghỉ Tết và bán hàng thông Tết tại các nhà hàng trong hệ thống.
-                        </div>
-                    </div>
-                    <div class="review_flex-item">
-                        <div class="review_flex-item--img">
-                            <a href="tintuc.html"><img src="./assets/img/review3.jpg" alt="Ảnh"></a>
-                        </div>
-                        <h3 class="name_home"><a href="tintuc.html">Phong Phú Khẩu Vị Riêng Của Người Huế </a></h3>
-                        <div class="date_home">Ngày 17/05/2022</div>
-                        <div class="info_home">Nét Văn Hóa Ẩm Thực Của Người Huế.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+    <div class="noidung" style="height: 735px;width:1519px ;">
+        <h1 style="font-family: 'Charm', cursive;" class="title_tuyendung" ><span>Tuyển dụng</span></h1>
+        <div class="text" style="color: black;">
+            TƯNG BỪNG KHAI TRƯƠNG NHÀ HÀNG NÉT HUẾ THỨ 14 -  TẠI SIÊU THỊ BIG C THĂNG LONG - 222 TRẦN DUY HƯNG<br>
+            HỆ THÔNG NHÀ HÀNG NÉT HUẾ TUYỂN DỤNG TẤT CẢ CÁC VỊ TRÍ.<br>
+            1. THU NGÂN: Yc có khả năng gắn bó từ 6 tháng trở lên<br>
+            Ca làm việc: 7h - 15h; 8h30 - 16h30; 14h30 - 22h30; 10h30 - 22h30<br>
+            Ca làm việc: 7h - 15h30; 8h30 - 17h; 10h - 14h30; 11h - 15h; 12h - 16h; 17h30 - 22h hoặc ca full<br>
+            2. PHỤC VỤ: Nhiều ca làm việc linh động, phù hợp với sinh viên làm thêm: <br>
+        
+            3. BẾP BÚN, BAR, PHỤ BẾP: Chỉ tuyển nhân viên có khả năng gắn bó lâu dài<br>
+            Ca làm việc: 7h - 15h30; 8h30 - 17h hoặc ca full: 7h - 14h + 16h - 21h; 8h30 - 16h + 17h30 - 22h<br>
+            4. SHIP: Biết đường Hà Nội <br>
+            Ca làm việc: 10h30 - 19h30; 9h - 21h<br>
+            5. QUẢN LÝ: Yc từ 27 tuổi trở lên, 2 năm kinh nghiệm ở vị trí tương đương. Gửi CV ứng tuyển qua mail: hr.nethue@gmail.com<br>
+            - LƯƠNG CAO: Chỉ làm việc 26 công + Phụ cấp trách nhiệm + Thưởng doanh thu + Phụ cấp Tiếng Anh với nhân viên có khả năng giao tiếp TA (Làm 30 công/tháng thu nhập trên 7tr/tháng tùy theo ca làm việc)<br>
+             Phục vụ: Từ 18k/h<br>
+             Các vị trí khác: Từ 4tr - 6.5tr, tùy ca và vị trí làm việc, kinh nghiệm làm việc<br>
+             - PHÚC LỢI: Thưởng lễ tết (các ngày lễ tết trong năm), thưởng doanh thu, quà tặng sinh nhật bằng tiền mặt, du lịch hè, khám sức khỏe định kỳ, teambuilding, thăm hỏi ốm đau, hiếu hỷ ...<br>
+            - KHÔNG YÊU CẦU KINH NGHIỆM ĐỐI VỚI TẤT CẢ CÁC VỊ TRÍ TRỪ QUẢN LÝ<br>
+            - ĐỊA ĐIỂM LÀM VIỆC
+            <ul>
+                <li>Big C Thăng Long - HN: TẤT CẢ CÁC VỊ TRÍ</li>
+                <li>83 Trần Duy Hưng - HN: Thu ngân + Phục vụ</li>
+                <li>Vincom - Nguyễn Chí Thanh (54 Nguyễn Chí Thánh): Phụ bếp + Phục vụ</li>
+                <li>Royal City - HN: Thu ngân + Phục vụ</li>
+                <li>198 Hàng Bông - Hoàn Kiếm: Ship + Phục vụ + Bar + Quản lý</li>
+                <li>36C + 43 Mai Hắc Đế - Hai Bà Trưng: Ship + Phục vụ + Bar + Quản lý + Phụ bếp</li>
+                <li>153 Láng Hạ - Đống Đa: Ship + Quản lý</li>
+                <li>33 Nguyễn Chí Thanh - Ba Đình (Đối diện Lotte): Phục vụ + Ship + Bar + Bếp Bún </li>
+                <li>34-36 Thái Hà - Đống Đa: Phục vụ + Phụ bếp</li>
+                <li>57 Lạc Trung - Hai Bà Trưng: Phục vụ </li>
+                <li>Time City - Vĩnh Tuy - Hai Bà Trưng: Phục vụ + Bar + Phụ bếp + Thu ngân</li>
+                <li>Aeon mall - Hà Đông: Phục vụ + Ship + Phụ bếp + Bar</li>
+            </ul>
+            
+                 ☎️ Mr Chiến: Big C + Trần Duy Hưng: 0989 186 289<br>
+                 Phòng nhân sự: 02438 373 373/ 038 639 1897<br>
+                http://nethue.com.vn/<br>
+                 Hoặc trực tiếp tại cơ sở:<br>
+                ☎️ Mr Chiến: Big C + Trần Duy Hưng: 0989 186 289<br>
+                ☎️ Mr Trường: 33 Nguyễn Chí Thanh: 0978 233 026<br>
+                ☎️ Mrs Duyên: Vincom Nguyễn Chí Thanh: 0964 349 809 <br>
+                ☎️ Mr Tiến: Royal City: 0964 625 115<br>
+                ☎️ Mr Phong: Aeon Hà Đông: 0987951518 <br>
+                ☎️ Mr Kiên: 57 Lạc Trung: 0369 31 8854<br>
+                ☎️ Mr Dũng: Time City: 0984 372 396
+    </div>
     </div>
     <footer id="footer">
         <div class="footer_top">

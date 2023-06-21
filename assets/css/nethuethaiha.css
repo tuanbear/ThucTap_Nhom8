@@ -1,0 +1,49 @@
+.title_page {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+.tab_address {
+    text-align: center;
+}
+.tab_address a {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 0 30px;
+    line-height: 4rem;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 3px;
+}
+.tab_address .active {
+    color: #fff;
+    background-color: #eb983e;
+}
+.review_adr {
+    display: flex;
+    margin-top: 40px;
+}
+.review_adr-item {
+    width: 370px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 25px;
+    transition: all .25s;
+}
+.review_adr-item:hover {
+    background-color: #fff;
+}
+.review_adr-item a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 4rem;
+    transition: all .25s;
+}
+.review_adr-item a:hover {
+    color: #eb983e;
+}
+.review_adr-item a img {
+    width: 100%;
+}

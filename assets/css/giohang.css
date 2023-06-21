@@ -1,0 +1,164 @@
+.cart_title {
+    display: flex;
+    font-family: 'Charm', cursive;
+    font-size: 2.8rem;
+    color: #d5a34c;
+    font-weight: bolder;
+    line-height: 4rem;
+    margin: 30px 0;
+}
+.cart_title-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #d5a34c;
+    text-align: center;
+    margin-right: 10px;
+}
+.title_shopping {
+    margin-bottom: 20px;
+}
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_container div {
+    color: #414042;
+    flex: 1;
+}
+.title_shopping div {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.shopping {
+    background-color: #fff;
+    padding: 20px;
+}
+.shopping_row {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.shopping_img {
+    max-width: 110px;
+}
+.shopping_img img {
+    width: 100px;
+    height: 100px;
+}
+.shopping_product-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.shopping_product-number {
+    margin-top: 30px;
+}
+.number_text {
+    font-size: 1.5rem;
+    max-width: 140px;
+}
+.number_text input {
+    width: 60px;
+    text-align: center;
+}
+.number_btn i {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background-color: #f27509;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 5px;
+}
+.shopping_row-right {
+    align-items: center;
+}
+.shopping_row-right--item {
+    font-size: 1.6rem;
+}
+.shopping_row-right--item i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #d5a34c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-minus, .fa-plus, .fa-xmark {
+    cursor: pointer;
+}
+.shopping_price {
+    display: flex;
+    justify-content: end;
+    font-size: 1.9rem;
+    font-weight: bold;
+    align-items: center;
+    line-height: 7rem;
+}
+.shopping_sale input {
+    width: 90px;
+    text-align: center;
+}
+.shopping_sum {
+    color: #414042;
+    margin-left: 25px;
+}
+.shopping_sum span, .shopping_sale {
+    color: #d5a34c;
+}
+.form_oder {
+    max-width: 900px;
+}
+.form_oder-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form_oder-input input,
+.form_oder-input select,
+.form_oder-input textarea {
+    width: 100%;
+    font-size: 1.3rem;
+}
+.form_oder-input textarea::placeholder,
+.form_oder-input input::placeholder,
+.form_oder-input select option {
+    color: #646464;
+}
+.input_oder-1 {
+    width: 30%;
+}
+.input_oder-2 {
+    width: 65%;
+}
+.input_oder-1 input, .input_oder-2 input,
+.input_oder-1 select, .input_oder-3 input {
+    height: 30px;
+    margin-bottom: 15px;
+}
+.input_oder-3 {
+    width: 155px;
+    display: flex;
+}
+.input_oder-3 img {
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
+.form_oder-btn a {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.form_oder-btn-1 {
+    border: 1px solid #d5a34c;
+    color: #d5a34c;
+}
+.form_oder-btn-2 {
+    color: #fff;
+    background-color: #d5a34c;
+}
